@@ -8,9 +8,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
-
-function demoComp(){
-  return (
-<h1>Welcome Message</h1>
-  );
-}
