@@ -30,8 +30,12 @@ const router = createBrowserRouter([
     path: "/legacy",
     element: <App></App>,
   },
-
-]);
+  {
+    path: "/page",
+    element: <Page></Page>,
+  },
+  
+]);  
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
